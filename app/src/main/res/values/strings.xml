@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IOT Gestures</string>
+
+    <string name="temperature" formatted="true">Temperature: %s °C</string>
+    <string name="humidity" formatted="true">Humidity: %s%%</string>
+    <string name="pressure" formatted="true">Pressure: %s mmHg</string>
+    <string name="wind" formatted="true">Wind: %s m/s</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="select_news_source">Select news source</string>
+    <string name="block_gestures">Block gestures</string>
+    <string name="unblock_gestures">Unblock gestures</string>
+    <string name="something_went_wrong">Oops! Something went wrong</string>
+
+    <string-array name="news_resources">
+        <item>{\"name\":\"ABC News\",\"query\":\"abc-news\"}</item>
+        <item>{\"name\":\"Aftenposten\",\"query\":\"aftenposten\"}</item>
+        <item>{\"name\":\"BBC News\",\"query\":\"bbc-news\"}</item>
+        <item>{\"name\":\"BBC Sport\",\"query\":\"bbc-sport\"}</item>
+        <item>{\"name\":\"Bild\",\"query\":\"bild\"}</item>
+        <item>{\"name\":\"Bloomberg\",\"query\":\"bloomberg\"}</item>
+        <item>{\"name\":\"Business Insider\",\"query\":\"business-insider\"}</item>
+        <item>{\"name\":\"Buzzfeed\",\"query\":\"buzzfeed\"}</item>
+        <item>{\"name\":\"CNN\",\"query\":\"cnn\"}</item>
+        <item>{\"name\":\"Fox News\",\"query\":\"fox-news\"}</item>
+        <item>{\"name\":\"Fox Sport\",\"query\":\"fox-sport\"}</item>
+        <item>{\"name\":\"Mashable\",\"query\":\"mashable\"}</item>
+        <item>{\"name\":\"TechCrunch\",\"query\":\"techcrunch\"}</item>
+        <item>{\"name\":\"Time\",\"query\":\"time\"}</item>
+    </string-array>
+</resources>
+
