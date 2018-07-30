@@ -42,7 +42,7 @@ val AppModule = applicationContext {
  */
 val PrefsModule = applicationContext {
     bean {
-        PreferencesModel(androidApplication().getSharedPreferences("IOTGestures",
+        PreferencesModel(androidApplication().getSharedPreferences("IoTGestures",
                 MODE_PRIVATE)) as IPreferencesModel
     }
 }
